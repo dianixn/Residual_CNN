@@ -1,4 +1,7 @@
 # Residual_CNN
+
+不懂就问，不会真的有人觉得这篇写的好叭？这和心肌干细胞的区别是啥？53k参数如何得到，transposed conv参数如何设置，为啥单单这一层不描述，如果k=k‘能出现53k参数？如果不是k=k’为啥引用那篇还不描述tranposed conv，pilot pattern是啥样的，结果里的channelnet和channelnetpaper里的能对比？创新点我看不懂，所以不懂就问，刚好我也都是猜的。
+
 Repeat the results of the paper called 'Deep Residual Learning Meets OFDM Channel Estimation' using MATLAB R2020b
 
 It is defined as ReEsNet. I think they did not release the code so I am not sure what I did is hundred percent correct, so just have fun.
