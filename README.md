@@ -1,7 +1,4 @@
 # Residual_CNN
-
-不懂就问，不会真的有人觉得这篇写的好叭？这和心肌干细胞的区别是啥？53k参数如何得到，transposed conv参数如何设置，为啥单单这一层不描述，如果k=k‘能出现53k参数？如果不是k=k’为啥引用那篇还不描述tranposed conv，pilot pattern是啥样的，结果里的channelnet和channelnetpaper里的能对比？创新点我看不懂，所以不懂就问，刚好我也都是猜的。
-
 Repeat the results of the paper called 'Deep Residual Learning Meets OFDM Channel Estimation' using MATLAB R2020b
 
 It is defined as ReEsNet. I think they did not release the code so I am not sure what I did is hundred percent correct, so just have fun.
@@ -44,7 +41,4 @@ WINNER2 Channel is not deployed, and you can download the WINNER2 packet so you 
 
 %% Result
 
-I know the MSE performance is worse than the results of the paper called 'Deep Residual Learning Meets OFDM Channel Estimation', but we should have a common knowledge on LS so my LS and MMSE time domain estimation resluts are consistent with the paper called 'On channel estimation in OFDM systems', which is strong enough to be a reference. You can also compare the result of ChannelNet from the original paper.
-
-%% By the way is there anyone know how to derive MMSE mathmatiscally? I would appreciate it if you can highlight me some course slides or book related.
-%% By the way is there anyone know how to derivate matrix, not that deep learning type, say if one m by 1 matrix derivated by n by 1 matrix, the result should be m by n, is that how we did in MMSE derivation? Help :(
+I know the MSE performance is worse than the results of the paper called 'Deep Residual Learning Meets OFDM Channel Estimation', but we should have a common knowledge on LS so my LS and MMSE time domain estimation resluts are consistent with the paper called 'On channel estimation in OFDM systems', which is strong enough to be a reference. You can also compare the result of ChannelNet from the original paper. Transposed convolution of [11, 11] dont improve much.
