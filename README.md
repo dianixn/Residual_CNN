@@ -5,7 +5,7 @@ It is defined as ReEsNet. I think they did not release the code so I am not sure
 
 It is a simple demo for implementing residual Neural Network in MATLAB.
 
-It is a version of my part code indeed but long long ago, so if there is any errors let me know. It works, at least I can send you a copy of trained DAG NN. If you have any question let me know.
+It is a version of my part code indeed but long long ago, so if there is any errors let me know. It works, at least I can send you a copy of trained DAG NN. If you have any question let me know. If the kernel of transposed convolutional layer is [11, 11], then 53k parameters. 
 
 %% Pruning
 
@@ -41,4 +41,4 @@ WINNER2 Channel is not deployed, and you can download the WINNER2 packet so you 
 
 %% Result
 
-I know the MSE performance is worse than the results of the paper called 'Deep Residual Learning Meets OFDM Channel Estimation', but we should have a common knowledge on LS so my LS and MMSE time domain estimation resluts are consistent with the paper called 'On channel estimation in OFDM systems', which is strong enough to be a reference. You can also compare the result of ChannelNet from the original paper. Transposed convolution of [11, 11] dont improve much.
+I know the MSE performance is worse than the results of the paper called 'Deep Residual Learning Meets OFDM Channel Estimation', but we should have a common knowledge on LS so my LS and MMSE time domain estimation resluts are consistent with the paper called 'On channel estimation in OFDM systems', which is strong enough to be a reference. You can also compare the result of ChannelNet from the original paper. 
