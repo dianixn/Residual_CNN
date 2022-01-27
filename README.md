@@ -1,7 +1,7 @@
 # Residual_CNN
 Repeat the results of the paper called 'Deep Residual Learning Meets OFDM Channel Estimation' using MATLAB R2020b
 
-This is the 2nd worse paper I ever read. 
+I am quite confused about that paper, therefore, I kindly have 2 guesses from the reference provided and the total parameters mentioned in that paper. I also propose a simple design with almost same performance and 82% reduction on parameters in 'Low Complexity Channel estimation with Neural Network Solutions'. 
 
 It is defined as ReEsNet. I think they did not release the code so I am not sure what I did is hundred percent correct, so just have fun.
 
