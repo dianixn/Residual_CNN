@@ -1,6 +1,12 @@
 # Residual_CNN
 
-Conpared with the ReEsNet, it has slightly improved performance and the number of parameters is reduced by 82% (when pruning is not applied). I planed to release the code when I sorted out the files.
+%%%%% Invited paper for WSA 2021 - Interpolation-ResNet
+
+An invited paper released in WSA 2021, which introduce a low complexity solution for channel estimation called Interpolation-ResNet. Conpared with the ReEsNet, Interpolation-ResNet has slightly improved performance and the number of parameters is reduced by 82% (when pruning is not applied). (https://github.com/dianixn/Interpolation-ResNet and https://arxiv.org/abs/2201.09934)
+
+%%%%%
+
+%% ReEsNet from 'Deep Residual Learning Meets OFDM Channel Estimation'
 
 Repeat the results of the paper called 'Deep Residual Learning Meets OFDM Channel Estimation' using MATLAB R2020b
 
