@@ -1,21 +1,14 @@
 # Residual_CNN
+
+Conpared with the ReEsNet, it has slightly improved performance and the number of parameters is reduced by 82% (when pruning is not applied). I planed to release the code when I sorted out the files.
+
 Repeat the results of the paper called 'Deep Residual Learning Meets OFDM Channel Estimation' using MATLAB R2020b
 
 I am quite confused about that paper, therefore, I kindly have 2 guesses from the reference provided and the total parameters mentioned in that paper. I also propose a simple design with almost same performance and 82% reduction on parameters in the paper 'Low Complexity Channel estimation with Neural Network Solutions' and code @ https://github.com/dianixn/Interpolation-ResNet. 
 
 It is defined as ReEsNet. I think they did not release the code so I am not sure what I did is hundred percent correct, so just have fun.
 
-It is a simple demo for implementing residual Neural Network in MATLAB.
-
 It is a version of my part code indeed but long long ago, so if there is any errors let me know. It works, at least I can send you a copy of trained DAG NN. If you have any question let me know. If the kernel of transposed convolutional layer is [11, 11], then 53k parameters. 
-
-%% Pruning
-
-Go https://github.com/dianixn/Pruning to see the details.
-
-Pruning.m is used to prune the Neural Network. DAG is a read only structure, that is the reason why we need a module to do pruning.
-
-CDF_Layerweights.m is used to have a view on the CDF of weights and output the location of the weights prepared to be pruned for Pruning.m to do pruning.
 
 %% MMSE
 
