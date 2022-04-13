@@ -1,9 +1,5 @@
 # Residual_CNN
 
-%%%%% Invited paper for WSA 2021 - Interpolation-ResNet
-
-An invited paper released in WSA 2021, which introduce a low complexity solution for channel estimation called Interpolation-ResNet. Conpared with the ReEsNet, Interpolation-ResNet has slightly improved performance and the number of parameters is reduced by 82% (when pruning is not applied). (https://github.com/dianixn/Interpolation-ResNet and https://arxiv.org/abs/2201.09934)
-
 %%%%%
 
 %% ReEsNet from 'Deep Residual Learning Meets OFDM Channel Estimation'
@@ -43,3 +39,7 @@ WINNER2 Channel is not deployed, and you can download the WINNER2 packet so you 
 %% Result
 
 I know the MSE performance is worse than the results of the paper called 'Deep Residual Learning Meets OFDM Channel Estimation', but we should have a common knowledge on LS so my LS and MMSE time domain estimation resluts are consistent with the paper called 'On channel estimation in OFDM systems', which is strong enough to be a reference. You can also compare the result of ChannelNet from the original paper. 
+
+%%%%% Invited paper for WSA 2021 - Interpolation-ResNet 
+
+An invited paper released in WSA 2021, which introduce a low complexity solution for channel estimation called Interpolation-ResNet. Conpared with the ReEsNet, Interpolation-ResNet has slightly improved performance and the number of parameters is reduced by 82% (when pruning is not applied). (https://github.com/dianixn/Interpolation-ResNet and https://arxiv.org/abs/2201.09934)
