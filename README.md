@@ -2,9 +2,9 @@
 
 %%%%% Invited paper for WSA 2021 - Interpolation-ResNet 
 
-An invited paper released in WSA 2021, which introduce a low complexity solution for channel estimation called Interpolation-ResNet. Conpared with the ReEsNet, Interpolation-ResNet has slightly improved performance and the number of parameters is reduced by 82% (when pruning is not applied). (https://github.com/dianixn/Interpolation-ResNet and https://arxiv.org/abs/2201.09934)
+An invited paper released in WSA2021, which introduce a low complexity solution for channel estimation called Interpolation-ResNet. Conpared with the ReEsNet, Interpolation-ResNet has slightly improved performance and the number of parameters is reduced by 82% (pruning is not applied). 
 
-I am quite confused about that paper, therefore, I kindly have 2 guesses from the reference provided and the total parameters mentioned in that paper. I also propose a simple design with almost same performance and 82% reduction on parameters in the paper 'Low Complexity Channel estimation with Neural Network Solutions' and code @ https://github.com/dianixn/Interpolation-ResNet. 
+The ReEsNet paper did not make clear something/conflict with the reference they used, therefore, I kindly have 2 guesses from the reference provided and the total parameters mentioned in the ReEsNet paper. I also propose a simple design with almost same performance and 82% reduction on parameters in the paper 'Low Complexity Channel estimation with Neural Network Solutions' https://arxiv.org/abs/2201.09934 and code @ https://github.com/dianixn/Interpolation-ResNet. 
 
 %% ReEsNet from 'Deep Residual Learning Meets OFDM Channel Estimation'
 
